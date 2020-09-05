@@ -4,7 +4,7 @@ services:
 language: java
 
 before_install:
-    -mvn release
+    - mvn release
 
 deploy:
     provider: elasticbeanstalk
