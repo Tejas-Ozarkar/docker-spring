@@ -3,9 +3,6 @@ services:
     - docker
 language: java
 
-script:
-    - mvn package
-
 deploy:
     provider: elasticbeanstalk
     region: "ap-south-1"
