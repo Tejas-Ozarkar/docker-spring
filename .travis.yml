@@ -4,8 +4,6 @@ services:
     - maven
 language: java
 
-before_install:
-    - mvn release
 deploy:
     provider: elasticbeanstalk
     region: "ap-south-1"
