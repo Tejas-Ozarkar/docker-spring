@@ -3,7 +3,7 @@ services:
     - docker
 language: java
 
-before_install:
+before_deploy:
     - mvn package
 
 deploy:
